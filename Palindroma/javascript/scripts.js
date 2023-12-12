@@ -23,3 +23,7 @@ function palindrome(parola) {
         console.log("La parola non è palindroma");
     }
 }
+
+const parola_utente = prompt("Inserisci una parola");
+
+palindrome(parola_utente.replaceAll(" ", ""));
